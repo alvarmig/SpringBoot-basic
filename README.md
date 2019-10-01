@@ -14,6 +14,8 @@ You can ding the following projects:
 </ul>
 
 All of this project will show the Spring MVC configuration, MySQL connection, REST API services and dependencies. 
+
+<hr>
 <p align="center">
   <strong>testAppSpringBoot</strong>
 </p>
@@ -23,6 +25,8 @@ A simple REST API was created with a GET requests that provides a simple greetin
   <img src="/img/img-1.JPG" width="400">
 </p>
 
+
+<hr>
 <p align="center">
   <strong>testAppSpringBootMySQL</strong>
 </p>
@@ -43,6 +47,8 @@ Insert user into database via a POST request using the @RequesBody annotation. A
   <img src="/img/img-3.JPG" width="400">
 </p>
 <br>
+
+<hr>
 <p align="center">
   <strong>chatbot</strong>
 </p>
