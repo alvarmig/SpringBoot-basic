@@ -1,7 +1,7 @@
 # Java-Spring
 Collection of basic projects based on Spring boot and Maven
 
-<strong>Objective:</strong> The purpose of this repository is to store basic projects that are based on Spring boot and Maven.
+<strong>Objective:</strong> The purpose of this repository is to store basic Spring boot and Maven based projects.
 
 You can ding the following projects:
 <ul>
@@ -14,3 +14,15 @@ You can ding the following projects:
 </ul>
 
 All of this project will show the Spring MVC configuration, MySQL connection, REST API services and dependencies. 
+
+<img src="/img/img-1.JPG" width="400">
+
+<img src="/img/img-2.JPG" width="700">
+
+<img src="/img/img-3.JPG" width="400">
+
+<img src="/img/img-4.JPG" width="400">
+
+<img src="/img/img-5.JPG" width="700">
+
+<img src="/img/img-6.JPG" width="700">
