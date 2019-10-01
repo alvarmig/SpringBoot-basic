@@ -10,7 +10,7 @@ import lombok.Setter;
 
 /**
  * @Description: 
- * @Author: Daniel Beltran
+ * @Author: Miguel Alvarado
  * @Date: Sep 7, 2019
  */
 

@@ -11,7 +11,7 @@ import com.zapacademy.entity.ChatbotUsuariosEntity;
 
 /**
  * @Description: 
- * @Author: Daniel Beltran
+ * @Author: Miguel Alvarado
  * @Date: Sep 7, 2019
  */
 public interface ChatbotUsuariosRepository extends JpaRepository<ChatbotUsuariosEntity, String>{

@@ -15,7 +15,7 @@ import com.zapacademy.repository.ChatbotUsuariosRepository;
 
 /**
  * @Description: 
- * @Author: Daniel Beltran
+ * @Author: Miguel Alvarado
  * @Date: Sep 7, 2019
  */
 
