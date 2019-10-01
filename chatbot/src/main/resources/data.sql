@@ -1,0 +1,1 @@
+CREATE TABLE test.chatbot_usuarios (nombre VARCHAR(50) );
