@@ -19,24 +19,31 @@ public class LoginController {
 	@Autowired
 	private RegisterService registerService;
 	
+	boolean message = false;
+	boolean messageExists = false;
+	
 	@GetMapping(path="/login")
-	public String showLoginPage(ModelMap model) {
-		
+	public String showLoginPage(ModelMap model) {	
         return "login";
 	}
 	
 	@RequestMapping(value="/register", method = RequestMethod.GET)
 	public String showRegisterPage(ModelMap model){
+		//model.addAttribute("message", message);
 		return "index";
 	}
 	
 	@PostMapping(path="/add")
 	public String addUser(ModelMap model, @RequestParam String name, @RequestParam String email, @RequestParam String password) {
 		
-		String message = "<h3>You now can login!</h3>";
-		registerService.insertUser(name, email, password);
-
-		model.addAttribute("message", message);
-		return "login";
+		if(registerService.insertUser(name, email, password)) {
+			message = true;
+			model.addAttribute("message", message);
+			return "login";
+		}else {
+			messageExists = true;
+			model.addAttribute("messageExists", messageExists);
+			return "index";
+		}	
 	}
 }
