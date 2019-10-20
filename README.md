@@ -11,6 +11,8 @@ You can ding the following projects:
     A simple REST API has been implemented to add users and display the users from the database.</li>
   <li><strong>chatbot:</strong> A mini chatbot implemented using REST services, MySQL, JavaScript, Ajax. 
     The app will respond the user with simple answers and will store or change the name of the user.</li>
+  <li><strong>mini Login:</strong> Simple login form, only username and password. Entity model (relationships), repository, bcrypt(security module), JSP and JSTL library, MySQL DB (JPA repository) and @Controller for GET and POST requests.</li>
+  
 </ul>
 
 All of this project will show the Spring MVC configuration, MySQL connection, REST API services and dependencies. 
@@ -60,4 +62,24 @@ mentions that the name has changed. REGEX has been used to identify keywords tha
 The image below shows that the user is already in the db and welcomes back the user. 
 <p align="center">
   <img src="/img/img-6.JPG" width="700">
+</p>
+
+<hr>
+<p align="center">
+  <strong>mini Login</strong>
+</p>
+Mini login/register form only with username and password. You can create a user and sign in with that user, validation of the form was implemented with Validator interface. Entity model (relationships), repository, bcrypt(security module), JSP and JSTL library, MySQL DB (JPA repository) and @Controller for GET and POST requests.  
+<br>
+Views for the login and register forms are implemented with JSP, messages are sent to the user to check for existing users and validation of fields.
+<br>
+<p align="center">
+  <img src="/img/img-7.JPG" width="400">
+  <img src="/img/img-8.JPG" width="300">
+</p>
+<br>
+Folder structure used for MVC includes; repository, model, controller, service and validator.
+<br>
+<p align="center">
+  <img src="/img/img-9.JPG" width="200">
+  <img src="/img/img-10.JPG" width="250">
 </p>
